@@ -22,7 +22,7 @@ impl TreeNode {
 
 // Define the HeartRateTree struct
 pub struct HeartRateTree {
-    pub root: Option<Box<TreeNode>>,
+    pub root: Option<Box<TreeNode>>, //This field is public
 }
 
 impl HeartRateTree {
