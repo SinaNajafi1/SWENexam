@@ -89,7 +89,8 @@ impl HeartRateTree {
             self.inorder_traversal(&n.right, result);
         }
     }
-pub fn get_root(&self) -> &Option<Box<TreeNode>> {
+
+    pub fn get_root(&self) -> &Option<Box<TreeNode>> {
         &self.root
     }
 
@@ -118,9 +119,3 @@ impl fmt::Display for HeartRateTree {
         self.display_node(&self.root, f)
     }
 }
-                                                                                                                                                                                          121,4         Bot
-
-
-                                                                                                                                                                                          51,13         60%
-
-                                                                                                                                                                                       1,13          Top
